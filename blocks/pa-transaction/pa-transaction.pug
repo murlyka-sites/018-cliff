@@ -1,0 +1,98 @@
+.pa: .container: .row: .col-xs-12
+	h2.pa__title
+		| Создание сделки
+.pa-transaction: .container: .row: .col-xs-12
+	.pa-transaction__container
+		.pa-transaction__cell-wrap: .pa-transaction__cell
+			.pa-transaction__requisites
+				.pa-transaction__requisites-left: table
+					tr
+						th(width="200")
+							| Реквизиты
+					tr
+						td
+							| Наименование ГК Аваль
+							br
+							| ИНН 6670143220
+							br
+							| КПП 667001001
+							br
+							| ОГРН 1069670148790
+							br
+							| ОКПО 97924001
+					
+				.pa-transaction__requisites-right: table
+					tr
+						th
+							| Адреса
+					tr
+						td
+							p
+								| Юридический адрес 620072, область Свердловская, Екатеринбург, бульвар Сиреневый, д. 16, оф. 85
+							p
+								| Юридический адрес 620072, область Свердловская, Екатеринбург, бульвар Сиреневый, д. 16, оф. 85
+			a.btn.btn-blue(href="#")
+				| Изменить
+			a.pa-transaction__next(href="#")
+				| Следующие 5
+		.pa-transaction__cell-wrap: .pa-transaction__cell
+			.pa-transaction__personal
+				.pa-transaction__personal-left
+					table
+						tr: th Связанные соцсети
+						tr
+							td.pa-transaction__social
+								div
+									| Facebook
+								div
+									a.pa-transaction__link(href="#")
+										| удалить
+								.pa-transaction__add-social-title
+									| Привязать соцсеть
+								div(style="display: inline-block; width: 30px; height: 30px; background: #cdcdcd;")
+
+				.pa-transaction__personal-right
+					table
+						tr
+							th
+								| Личные данные
+						tr
+							td
+								table.pa-transaction__personal-info
+									tr
+										td E-mail
+										td yurist@gmail.com
+									tr
+										td yurist@gm
+										td +7909281020
+									tr
+										td Пароль
+										td ***********
+			.pa-transaction__subtitle Информация о компании
+			.pa-transaction__desc Группа компаний «АВАЛЬ» - холдинг, состоящий из специализированных компаний, действующих в сфере консалтинговых услуг, обеспечивающих построение и сопровождение бизнеса. В Группу компаний входят: Юридическое агентство, Лицензионное агентство, Бюро судебной защиты, Бухгалтерский центр, Агентство охраны труда и Центр сертификации ISO 9000.
+			a.pa-transaction__next(href="#")
+				| Следующие 5
+
+		.pa-transaction__cell-wrap: .pa-transaction__cell
+			h3.pa-transaction__title Сделки
+		.pa-transaction__cell-wrap: .pa-transaction__cell
+			.pa-transaction__personal
+				.pa-trascation__person-left
+					table
+						tr
+							th
+								| E-mail профильных юристов
+						tr
+							td.pa-transaction__date 06.12.2016
+						tr
+							td.pa-transaction__cat Антимонопольная практика
+						tr
+							td.pa-transaction__cat Представительство в суде
+						tr
+							td.pa-transaction__cat Корпоративное право
+				.pa-trascation__person-right
+					table
+						tr
+							th.text-right
+								a.btn.btn-blue
+									| Создать сделку

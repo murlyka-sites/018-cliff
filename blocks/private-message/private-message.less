@@ -1,0 +1,177 @@
+.private-message {
+	text-align: center;
+	
+	@media (min-width: @screen-sm-min) {
+		text-align: left;
+	}
+	
+	&__title {
+		margin: 3px 0 30px;
+		color: #333;
+		font-family: "Museo Sans Cyrl";
+		font-size: 30px;
+		font-weight: 500;
+		line-height: 30px;
+		
+		@media (min-width: @screen-sm-min) {
+			font-size: 35px;
+			margin: 3px 0 20px;
+		}
+	}
+
+	&__btn {		
+		width: auto;
+		padding: 10px 40px;
+	}
+
+	&__messages {
+		margin: 0 -15px;
+		padding: 10px 0 0px;
+		
+		@media (min-width: @screen-sm-min) {
+			padding: 20px 0 30px;	
+		}
+	}
+
+	&__date {
+		padding: 5px 10px 12px;
+		color: #333;
+		font-family: "Museo Sans Cyrl";
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 21px;
+	}
+}
+
+.message-item {
+	padding: 20px 20px 20px;
+	background: #f6f6f6;
+	margin-bottom: 3px;
+	font-family: "Museo Sans Cyrl";
+	color: #333;
+	text-align: left;
+	
+	@media (min-width: @screen-sm-min) {
+		display: flex;
+		padding: 25px 30px 20px;
+		margin-bottom: 17px;
+	}
+	
+	&_push {
+		margin-left: 25px;
+		background-color: #f5f6ec;
+		
+		@media (min-width @screen-sm-min) {
+			margin-left: 100px;
+		}
+	}
+	
+	&__main {
+		width: 100%;
+		
+		@media (min-width: @screen-sm-min) {
+			width: ~"calc(100% - 100px)";
+		}
+	}
+
+	&__side {
+		width: 100px;
+	}
+	
+	&__title {
+		padding-top: 8px;
+		margin-bottom: 16px;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 21px;
+	}
+
+	&__pr {
+		float: left;
+		margin-top: -8px;
+		margin-right: 12px;
+	}
+
+	&__text {
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 26px;
+		
+		@media (min-width: @screen-sm-min) {
+			line-height: 30px;
+		}
+	}
+
+	&__foo {
+		padding-top: 10px;
+		
+		@media (min-width: @screen-sm-min) {
+			padding: 0;
+		}
+	}
+
+	&__date {
+		display: none;
+		color: #333;
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 18px;
+		text-align: right;
+		
+		@media (min-width: @screen-sm-min) {
+			text-align: left;
+			display: block;
+		}
+
+		&_mobile {
+			display: block;
+			padding-top: 5px;
+			padding-right: 5px;
+			
+			@media (min-width: @screen-sm-min) {
+				display: none;
+			}
+		}
+	}
+
+	&__attach {
+		padding: 15px 0 4px;
+		font-size: 14px;
+		font-weight: 100;
+		line-height: 21px;
+		
+		@media (min-width: @screen-sm-min) {
+			padding: 20px 0 4px;
+		}
+		
+		&-icon {
+			position: relative;
+			top: -3px;
+			margin-right: 10px;
+		}
+
+		&-link {
+			display: block;
+			margin: 0  0 0 22px;
+			color: #2e7b86;
+			text-decoration: underline;
+			
+			@media (min-widtH: @screen-sm-min) {
+				margin: 0 4px;
+			}
+		}
+	}
+
+	&__read {
+		float: left;
+		padding-top: 5px;
+		font-size: 11px;
+		font-weight: 100;
+		line-height: 21px;
+		
+		@media (min-width: @screen-sm-min) {
+			float: none;
+			padding-top: 10px;
+		}
+	}
+}

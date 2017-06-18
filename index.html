@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Главная</title>
+    <meta charset="UTF-8">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta content="telephone=no" name="format-detection">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;amp;subset=cyrillic">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="swipes" id="swipes">
+      <div class="fixed">
+        <div class="nav_illusion">
+          <nav class="nav nav_fixed">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="nav__container">
+                    <div class="nav__mobile visible-xs visible-sm">
+                      <div class="nav__trigger" id="nav-trigger"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="nav__left"><img class="nav__logo" src="images/logo.png" alt="ЮрТерра" width="168" height="35">
+                      <div class="nav__slogan">Рекомендуем.<br class="visible-lg">Как для друзей</div>
+                    </div>
+                    <div class="nav__right hidden-xs hidden-sm">
+                      <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#">Методология отбора</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">Как это работает</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#">О портале</a></li>
+                      </ul>
+                      <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link fancy" href="#auth"><span class="i-locked nav__icon"></span>Войти</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <header class="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="header__container">
+                  <div class="header__item header__item_1 clearfix">
+                    <div class="header__item-icon header__item-icon_1 i-header-1"></div>
+                    <div class="header__item-text header__item-text_1">Компании <b class="fw__black">отобраны</b> только на основе рекомендаций юристов</div>
+                  </div>
+                  <div class="header__item header__item_2 clearfix">
+                    <div class="header__item-icon header__item-icon_2 i-header-2"></div>
+                    <div class="header__item-text header__item-text_2"><b class="fw__black">Быстрый</b> поиск экспертов по отраслям права и городам РФ</div>
+                  </div>
+                  <div class="header__item header__item_3 clearfix">
+                    <div class="header__item-icon header__item-icon_3 i-header-3"></div>
+                    <div class="header__item-text header__item-text_3"><b class="fw__black">Фиксированный</b> бюджет и <b class="fw__black">безопасность</b> платежей при проведении сделки через портал</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="header-title">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h1 class="header-title__title">Получите проверенные юрфирмы по всей территории РФ</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="firm">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="firm__place">
+                  <div class="firm__header firm__header_home">
+                    <div class="firm__header-title">Выберите нужную специализацию:</div>
+                    <div class="firm__header-tabs toggle-buttons visible-xs visible-sm" id="firms-accordion">
+                      <button class="toggle-buttons__button toggle-buttons__button_active" data-toggle="collapse" data-parent="#firms-accordion" data-target="#firm-collapse1">
+                        <div class="toggle-buttons__text">Юридические практики</div>
+                      </button>
+                      <div class="collapse" id="firm-collapse1">
+                                <div class="firm__items firm__items_mobile"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                      </div>
+                      <button class="toggle-buttons__button" data-toggle="collapse" data-parent="#firms-accordion" data-target="#firm-collapse2">
+                        <div class="toggle-buttons__text">Популярные услуги</div>
+                      </button>
+                      <div class="collapse" id="firm-collapse2">
+                                <div class="firm__items firm__items_mobile"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                      </div>
+                      <button class="toggle-buttons__button toggle-buttons__button_last" data-toggle="collapse" data-parent="#firms-accordion" data-target="#firm-collapse3">
+                        <div class="toggle-buttons__text">Отраслевой опыт</div>
+                      </button>
+                      <div class="collapse" id="firm-collapse3">
+                                <div class="firm__items firm__items_mobile"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                      </div>
+                    </div>
+                    <div class="visible-md visible-lg">
+                      <div class="firm__header-tabs toggle-buttons">
+                        <button class="toggle-buttons__button toggle-buttons__button_active" data-toggle="tab" data-target="#firm-tab1">
+                          <div class="toggle-buttons__text">Юридические практики</div>
+                        </button>
+                        <button class="toggle-buttons__button" data-toggle="tab" data-target="#firm-tab2">
+                          <div class="toggle-buttons__text">Популярные услуги</div>
+                        </button>
+                        <button class="toggle-buttons__button toggle-buttons__button_last" data-toggle="tab" data-target="#firm-tab3">
+                          <div class="toggle-buttons__text">Отраслевой опыт</div>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="firm__header-select select__wrap" data-target=".collapse-in-maps" data-toggle="collapse">
+                      <button class="select">г.Москва</button>
+                    </div>
+                    <div class="visible-xs visible-sm">
+                      <div class="collapse collapse-in-maps" id="in-maps">
+                        <div class="in-maps"><a class="in-maps__close" href=".collapse-in-maps" data-toggle="collapse">
+                            <div class="in-maps__close-text">Закрыть</div>
+                            <div class="in-maps__close-icon"></div></a>
+                          <div class="clearfix">
+                            <div class="col-xs-12">
+                              <div class="in-maps__title">Выберите свой город</div>
+                            </div>
+                            <div class="col-xs-12 col-md-7">
+                              <div class="in-maps__items">
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Москва</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Волгоград</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Воронеж</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Екатеринбург</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Казань</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Краснодар</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Красноярск</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Нижний Новгород</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Новосибирск</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Пермь</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Ростов-на-Дону</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Самара</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Санкт-Петербург</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Уфа</span>
+                                </label>
+                                <label class="label-group in-maps__item">
+                                  <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Челябинск</span>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-5">
+                              <div class="in-maps__pr"><img class="img-responsive" src="images/in-maps-global.png" alt=""></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div><a class="firm__header-maps" href="#">На карте</a>
+                  </div>
+                  <div class="hidden-xs hidden-sm">
+                    <div class="collapse collapse-in-maps" id="in-maps">
+                      <div class="in-maps"><a class="in-maps__close" href=".collapse-in-maps" data-toggle="collapse">
+                          <div class="in-maps__close-text">Закрыть</div>
+                          <div class="in-maps__close-icon"></div></a>
+                        <div class="clearfix">
+                          <div class="col-xs-12">
+                            <div class="in-maps__title">Выберите свой город</div>
+                          </div>
+                          <div class="col-xs-12 col-md-7">
+                            <div class="in-maps__items">
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Москва</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Волгоград</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Воронеж</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Екатеринбург</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Казань</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Краснодар</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Красноярск</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Нижний Новгород</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Новосибирск</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Пермь</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Ростов-на-Дону</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Самара</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Санкт-Петербург</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Уфа</span>
+                              </label>
+                              <label class="label-group in-maps__item">
+                                <input class="label-group__input" type="radio" name="in-maps"><span class="label-group__text">Челябинск</span>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-xs-12 col-md-5">
+                            <div class="in-maps__pr"><img class="img-responsive" src="images/in-maps-global.png" alt=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-content">
+                    <div class="tab-pane fade in active" id="firm-tab1">
+                              <div class="firm__items"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                    </div>
+                    <div class="tab-pane fade" id="firm-tab2">
+                              <div class="firm__items"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                    </div>
+                    <div class="tab-pane fade" id="firm-tab3">
+                              <div class="firm__items"><a class="firm__item firm__item_empty" href="#">Арбитраж. Представительво в суде</a><a class="firm__item firm__item_empty" href="#">Антимонопольное право (ФАС)</a><a class="firm__item firm__item_empty" href="#">Банковское право и финансы</a><a class="firm__item firm__item_empty" href="#">Банкротство</a><a class="firm__item firm__item_empty" href="#">Интеллектуальная собственность</a><a class="firm__item" href="#">Коммерческое право</a><a class="firm__item" href="#">Корпоративное право</a><a class="firm__item" href="#">Налоговое право</a><a class="firm__item" href="#">Недвижимость и земельное право</a><a class="firm__item" href="#">Трудовое право</a><a class="firm__item" href="#">Воздушное право</a><a class="firm__item" href="#">Морское право</a><a class="firm__item" href="#">Государственно частное партнерство</a><a class="firm__item" href="#">Противодействие коррупции (Compliance)</a><a class="firm__item" href="#">Право в сфере информационных технологий (TMT)</a><a class="firm__item" href="#">Таможенное право (ВЭД?)</a><a class="firm__item" href="#">Фармацевтическое право</a><a class="firm__item" href="#">Ценные бумаги и фондовой рынок</a><a class="firm__item" href="#">Экологическое право</a><a class="firm__item" href="#">Международный арбитраж</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="asst">
+          <div class="asst__header clearfix" data-target=".asst__collapse" data-toggle="collapse">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h2 class="text__h2 asst__title"><span class="asst__header-text asst__header-text_open">Нужен ассистент для решения задачи?</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix asst__collapse">
+            <div class="asst__body">
+              <div class="container clearfix">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="asst__left">
+                      <ul class="check-list asst__check-list">
+                        <li class="check-list__item">Опишите задачу всего один раз</li>
+                        <li class="check-list__item">Свяжитесь удобным для вас способом</li>
+                        <li class="check-list__item">Получите КП от компаний с фиксированным бюджетом</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="asst__right">
+                      <p class="asst__text">Выберите оперативный способ связи</p>
+                      <div class="asst__social social"><a class="social__item i-social-msg" href="#"></a><a class="social__item i-social-fb" href="#"></a><a class="social__item i-social-vk" href="#"></a><a class="social__item i-social-skype" href="#"></a></div>
+                      <p class="asst__text">Или свяжитесь через онлайн чат</p>
+                      <form class="asst__message send-message" action="#">
+                        <textarea class="send-message__field" placeholder="Ваше сообщение" required></textarea>
+                        <button class="send-message__submit">
+                          <div class="i-send-message"></div>
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="how-it">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text__h2 text__h2_decor_gray how-it__title">Как это работает?</h2>
+                <div class="how-it__items">
+                  <div class="how-it__item">
+                    <div class="how-it__item-title">1. Найдите компанию</div>
+                    <div class="how-it__item-icon">
+                      <div class="i-how-it-1"></div>
+                    </div>
+                    <div class="how-it__item-desc">Выберите компанию в нужном городе по юридической практике, популярной услуге или отраслевому опыту</div>
+                  </div>
+                  <div class="how-it__item">
+                    <div class="how-it__item-title">2. Отправьте запрос</div>
+                    <div class="how-it__item-icon">
+                      <div class="i-how-it-2"></div>
+                    </div>
+                    <div class="how-it__item-desc">Свяжитесь напрямую с компанией или  профильным юристом и опишите свою проблему </div>
+                  </div>
+                  <div class="how-it__item">
+                    <div class="how-it__item-title">3. Получите предложения</div>
+                    <div class="how-it__item-icon">
+                      <div class="i-how-it-3"></div>
+                    </div>
+                    <div class="how-it__item-desc">Коммерческое предложение будет содержать полную информацию о требованиях к получению услуги и результаты, предоставляемые после выполнения </div>
+                  </div>
+                  <div class="how-it__item">
+                    <div class="how-it__item-title">4. Внесите денежные средства</div>
+                    <div class="how-it__item-icon">
+                      <div class="i-how-it-4"></div>
+                    </div>
+                    <div class="how-it__item-desc">Депозит будет использован для начала работ по вашему запросу</div>
+                  </div>
+                  <div class="how-it__item">
+                    <div class="how-it__item-title">5. Подтвердите получение услуги</div>
+                    <div class="how-it__item-icon">
+                      <div class="i-how-it-5"></div>
+                    </div>
+                    <div class="how-it__item-desc">Денежные средства станут доступны для компании только после оказания услуги</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="what">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text__h2 text__h2_decor_gray what__title">Почему  ЮрТерра станет постоянным партнером?</h2>
+                <div class="what__items">
+                  <div class="what__item">
+                    <div class="what__item-icon">
+                      <div class="i-what-1"></div>
+                    </div>
+                    <div class="what__item-title">Готовая база сильных компаний</div>
+                  </div>
+                  <div class="what__item">
+                    <div class="what__item-icon">
+                      <div class="i-what-2"></div>
+                    </div>
+                    <div class="what__item-title">Быстро решит юридическую проблему</div>
+                  </div>
+                  <div class="what__item">
+                    <div class="what__item-icon">
+                      <div class="i-what-3"></div>
+                    </div>
+                    <div class="what__item-title">Обеспечит безопасность сделки</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="methodology">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text__h2 text__h2_decor_gray methodology__title"><span class="i-check methodology__title-icon"></span>Методология отбора</h2>
+                <div class="methodology__items">
+                  <div class="methodology__item clearfix">
+                    <div class="methodology__item-icon">
+                      <div class="i-methodology-1"></div>
+                    </div>
+                    <div class="methodology__item-text">Составление списка юридических компаний, оказываюших юридические услуги для бизнеса</div>
+                  </div>
+                  <div class="methodology__item clearfix">
+                    <div class="methodology__item-icon">
+                      <div class="i-methodology-2"></div>
+                    </div>
+                    <div class="methodology__item-text">Получение оценок и рекомендаций от коллег на основании выполненных проектов</div>
+                  </div>
+                  <div class="methodology__item clearfix">
+                    <div class="methodology__item-icon">
+                      <div class="i-methodology-3"></div>
+                    </div>
+                    <div class="methodology__item-text">Отбор компаний с сильной экспертизой по областям права</div>
+                  </div>
+                  <div class="methodology__item clearfix">
+                    <div class="methodology__item-icon">
+                      <div class="i-methodology-4"></div>
+                    </div>
+                    <div class="methodology__item-text">Публикация результатов для  юридических компаний и получение обратной связи. Рассмотрение корректировки.</div>
+                  </div>
+                  <div class="methodology__item clearfix">
+                    <div class="methodology__item-icon">
+                      <div class="i-methodology-5"></div>
+                    </div>
+                    <div class="methodology__item-text">Публикация результатов</div>
+                  </div>
+                </div>
+                <div class="methodology__text">*Раз в полугодие мы обновляем результаты основе выполненных проектов и рекомендаций с рынка </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="si">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text__h2 si__title">Безопасность информации</h2>
+                <div class="si__items">
+                  <div class="si__item">
+                    <div class="si__item-icon"><span class="i-si-1"></span></div>
+                    <div class="si__item-text">Все передаваемые данные защищены протоколом SSL. Мы следуем стандартам отрасли для обеспечения безопаности передаваемой информации</div>
+                  </div>
+                  <div class="si__divider"></div>
+                  <div class="si__item">
+                    <div class="si__item-icon"><span class="i-si-2"></span></div>
+                    <div class="si__item-text">Вся хранящаяся на портале информация является строго конфиденицальной в соответстии с законодательством РФ пользовательским соглашением</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden-xs banner-h120" style="background: url(images/banner.jpg) center center / cover  no-repeat;"></div>
+        <div class="description">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="text__h2 description__title">Заголовок описания</h2>
+                <div class="description__text">
+                  <p>SEO Information- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</p>
+                </div><a class="btn-white description__more" href="#">Показать полную информацию</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="edge">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="edge__items">
+                  <div class="edge__item">
+                    <ul class="check-list">
+                      <li class="check-list__item">Опишите задачу всего один раз</li>
+                    </ul>
+                  </div>
+                  <div class="edge__item">
+                    <ul class="check-list">
+                      <li class="check-list__item">Свяжитесь удобным для вас способом</li>
+                    </ul>
+                  </div>
+                  <div class="edge__item">
+                    <ul class="check-list">
+                      <li class="check-list__item">Получите КП от компаний с фиксированным бюджетом</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="edge__social social"><a class="social__item i-social-msg" href="#"></a><a class="social__item i-social-fb" href="#"></a><a class="social__item i-social-vk" href="#"></a><a class="social__item i-social-skype" href="#"></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="foo">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="foo__container">
+                  <div class="foo__info">
+                    <p> Мы проанализировали сильные практики юридических фирм по всей территории РФ  и отобрали лучшие в 28 городах РФ.  В результате вы можете найти надежного бизнес партнера, который решит вашу проблему</p>
+                  </div>
+                  <ul class="foo__list">
+                    <li class="foo__list-item"><a class="foo__list-link" href="#">Методология отбора</a></li>
+                    <li class="foo__list-item"><a class="foo__list-link" href="#">Как это работает</a></li>
+                  </ul>
+                </div>
+                <div class="foo__bottom">
+                  <div class="foo__copy">ЮрТерра. Все права защищены (с) 2016</div><a class="foo__politics fancy" href="#politics">Пользовательское соглашение</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="hidden">
+          <div class="popup popup_type_form clearfix" id="auth">
+            <div class="popup__body">
+              <h3 class="text__h3 popup__title">Войти или <a class="popup__link popup__link_reg fancy" href="#reg">зарегистрироваться</a></h3>
+              <input class="field popup__field" type="text" placeholder="E-mail" required>
+              <input class="field popup__field" type="text" placeholder="Пароль" required>
+              <div class="popup__btns popup__btns_reg">
+                <button class="btn-white popup__btn">Войти</button><a class="popup__link_forgot fancy" href="#forgot">Забыли пароль?</a>
+              </div>
+            </div>
+            <div class="popup__social">
+              <div class="popup__social-title">Войти как пользователь</div>
+              <div class="popup__social-items"><a class="popup__social-item" href="#"><span class="i-popup-social-mail"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-ya"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-vk"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-fb"></span></a></div>
+            </div>
+          </div>
+          <div class="popup popup_type_form clearfix" id="reg">
+            <div class="popup__body">
+              <h3 class="text__h3 popup__title">Зарегистрироваться или <a class="popup__link popup__link_reg fancy" href="#auth">войти</a></h3>
+              <input class="field popup__field" type="text" placeholder="Ваше имя" required>
+              <input class="field popup__field" type="text" placeholder="Пароль" required>
+              <div class="popup__sep-title">Контактная информация</div>
+              <input class="field popup__field" type="text" placeholder="E-mail" required>
+              <input class="field popup__field" type="text" placeholder="Номер Телефона" required>
+              <div class="popup__btns popup__btns_reg">
+                <button class="btn-white popup__btn">Регистрация</button><a class="popup__link_forgot fancy" href="#forgot">Забыли пароль?</a>
+              </div>
+            </div>
+            <div class="popup__social">
+              <div class="popup__social-title">Войти как пользователь</div>
+              <div class="popup__social-items"><a class="popup__social-item" href="#"><span class="i-popup-social-mail"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-ya"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-vk"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-fb"></span></a></div>
+            </div>
+          </div>
+          <div class="popup popup_type_form clearfix" id="forgot">
+            <div class="popup__body">
+              <h3 class="text__h3 popup__title">Восстановить пароль</h3>
+              <input class="field popup__field" type="text" placeholder="E-mail" required>
+              <div class="popup__btns popup__btns_reg">
+                <button class="btn-white popup__btn">Восстановить</button><a class="popup__link_forgot fancy" href="#auth">Войти</a>
+              </div>
+            </div>
+            <div class="popup__social">
+              <div class="popup__social-title">Войти как пользователь</div>
+              <div class="popup__social-items"><a class="popup__social-item" href="#"><span class="i-popup-social-mail"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-ya"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-vk"></span></a><a class="popup__social-item" href="#"><span class="i-popup-social-fb"></span></a></div>
+            </div>
+          </div>
+          <div class="popup popup_type_text clearfix" id="politics">
+            <p class="text__p">ЕСЛИ ВЫ СКАЧИВАЕТЕ, ЗАГРУЖАЕТЕ, КОПИРУЕТЕ ЛИБО ЛЮБЫМ ИНЫМ ОБРАЗОМ ИСПОЛЬЗУЕТЕ ИГРЫ, ПРИЛОЖЕНИЯ И САЙТЫ WARGAMING ИЛИ ИХ ЧАСТЬ ИЛИ НАЧИНАЕТЕ УЧАСТВОВАТЬ В ИГРОВОМ ПРОЦЕССЕ,  ТО ЭТИМ ВЫ ПОДТВЕРЖДАЕТЕ, ЧТО ПОЛНОСТЬЮ ПРОЧИТАЛИ, ПОНЯЛИ, СОГЛАСНЫ И ПРИНИМАЕТЕ НИЖЕИЗЛОЖЕННОЕ ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ, ОБЯЗУЕТЕСЬ ЕГО СОБЛЮДАТЬ И НЕСТИ ОТВЕТСТВЕННОСТЬ ЗА ЕГО НАРУШЕНИЕ.</p>
+            <p class="text__p">УСЛОВИЯ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ И КЛЮЧЕВЫХ ДОКУМЕНТОВ (ПУНКТ 2.1 НИЖЕ) ЯВЛЯЮТСЯ СУЩЕСТВЕННЫМИ И ОБЯЗАТЕЛЬНЫМИ ДЛЯ ИСПОЛНЕНИЯ.</p>
+            <p class="text__p">Настоящее пользовательское соглашение (далее – «Соглашение») регулирует отношения между компанией Wargaming World Limited, зарегистрированной по адресу Agion Omologiton Avenue, 105, Никосия, 1080, Кипр, в части игр на платформе Microsoft Xbox® и SonyPlayStation®, компанией Wargaming Group Limited, зарегистрированной по адресу Agion Omologiton Avenue, 105, Никосия, 1080, Кипр – в части всех остальных Игр, а также их уполномоченными представителями (далее – «Wargaming»)</p>
+            <p class="text__p">и Вами – конечным пользователем игр, приложений, сайтов и иных ресурсов Wargaming, в том числе игр World of Tanks, World of Warplanes, World of Warships, World of Tanks на Xbox®360 и Xbox®One, World of Tanks на PlayStation®4, World of Tanks Generals, World of Tanks Blitz (далее – «Пользователь»), по отдельности именуемые «Сторона», а совместно – «Стороны».</p>
+            <p class="text__p">Данное Соглашение действует в отношении всех игр и ресурсов Wargaming, кроме тех, в отношении которых установлены отдельные юридические документы. </p>
+            <h3 class="text__h3">1. ТЕРМИНЫ В СОГЛАШЕНИИ</h3>
+            <p class="text__p">1.1. Аккаунт – создаваемая Пользователем и принадлежащая Wargaming учетная запись Пользователя, которая представляет собой хранимую на Игровых ресурсах совокупность данных о Пользователе, необходимую для его авторизации (аутентификации) на Игровых ресурсах и доступа к информации о Пользователе, настройкам, игровым ценностям, статистическим показателям и иной подобной информации.</p>
+            <p class="text__p">1.2. Дополнительные возможности Игры (Дополнительные возможности) – программные возможности Игры за пределами базового функционала Игры, доступ к которым Пользователь приобретает за плату в соответствии с настоящим Соглашением. К таким Дополнительным возможностям в числе прочего относятся игровые ценности, включающие внутриигровую валюту («золото», «кредиты», «золотые слитки», «дублоны», «пиастры» и т.п.), специальное игровое имущество (например, «премиум техника») и улучшенный на определенный срок статус Пользователя в Игре (например, «премиум аккаунт»).</p>
+            <p class="text__p">1.3. Игра – одна из онлайн, мобильных и иных компьютерных игр Wargaming, в том числе World of Tanks, World of Warplanes, World of Warships, World of Tanks на Xbox®360 и Xbox®One, World of Tanks на PlayStation®4, World of Tanks Generals, World of Tanks Blitz, являющаяся программой для ЭВМ и включающая в себя связанные с ней Игровые ресурсы, а также соответствующие дополнения и обновления (патчи).</p>
+            <p class="text__p">1.4. Игровые ресурсы – Игры, программное обеспечение, приложения, интернет-сайты, базы данных и другие ресурсы Wargaming.</p>
+            <p class="text__p">1.5. Игровые элементы – совокупность используемых в Игре объектов, предметов, элементов и методов игрового процесса (геймплея), доступ к которым предоставляется Пользователю в процессе использования Игры на безвозмездной основе, если изначально не установлено  иное. Игровые элементы не включают в себя Дополнительные возможности, порядок доступа к которым регулируется отдельно.</p>
+            <p class="text__p">1.6. Интернет-сайт Игры –  сайт Wargaming, относящийся к Игре, в том числе, worldoftanks.ru, worldofwarplanes.ru, worldofwarships.ru, console.worldoftanks.com, wotgenerals.ru, wotblitz.ru и их поддомены.</p>
+            <p class="text__p">1.7. Клиентская часть Игры – программное обеспечение, необходимое для использования Игры Пользователем и подлежащее установке на персональный компьютер или иное техническое устройство Пользователя.</p>
+            <p class="text__p">1.8. Пользователь – физическое лицо, обладающее необходимой дееспособностью для заключения и исполнения настоящего Соглашения.	</p>
+            <p class="text__p">1.9. Правила Игры – документ, устанавливающий правила участия и поведения Пользователя в отдельных Играх, а также ответственность Пользователя за их нарушение.  Правила Игры расположены по адресу: <a href="#">http://worldoftanks.ru/ru/content/wot_game_rules/</a></p>
+            <p class="text__p">1.10. Правила Форума – документ, устанавливающий правила поведения Пользователя на официальном форуме Игры (далее – «Форум»). Правила Форума расположены по адресу: <a href="#">http://forum.worldoftanks.ru/index.php?/topic/8-правила-форума/</a>.</p>
+            <p class="text__p">1.11. Премиум магазин – ресурс Wargaming, расположенный по адресу <a href="#">https://ru.wargaming.net/shop</a> , либо иной электронный ресурс Wargaming, посредством которого Пользователь может приобрести доступ к Дополнительным возможностям Игры и иным платным функциям.</p>
+          </div>
+          <div class="popup popup_type_no-company clearfix" id="no-company">
+            <header class="no-company__header in-close">К сожалению отобранных компаний по <b>Морскому праву</b> в <b>г.Великий Новгород</b> в нашей базе пока нет, но у нас есть решения для вас</header>
+            <div class="no-company__body">
+              <div class="no-company__group">
+                <div class="no-company__group-item">
+                  <div class="no-company__group-item-title">1. Поиск на карте</div>
+                  <div class="no-company__group-item-desc">Отобранные нами компании могут находится в соседнем регионе и решить вашу бизнес задачу</div>
+                  <div class="no-company__group-item-wrap-btn"><a class="btn-white no-company__group-item-btn" href="#">Перейти на карту</a></div>
+                </div>
+                <div class="no-company__group-item">
+                  <div class="no-company__group-item-title">2. Создать тендер</div>
+                  <div class="no-company__group-item-desc">Проведите тендер между компаниями. Предложения будут учитывать все особенности поставленной задачи</div>
+                  <div class="no-company__group-item-wrap-btn"><a class="btn-white no-company__group-item-btn" href="#">Создать тендер</a></div>
+                </div>
+              </div>
+              <footer class="no-company__foo">
+                <div class="no-company__foo-title">3. Виртуальный ассистент</div>
+                <div class="no-company__foo-desc">Выполнит поиск и проверку компании под ваш запрос даже если еепока нет в базе бесплатно в течении двух рабочих дней</div>
+                <div class="no-company__foo-social social"><a class="social__item i-social-msg" href="#"></a><a class="social__item i-social-fb" href="#"></a><a class="social__item i-social-vk" href="#"></a><a class="social__item i-social-skype" href="#"></a></div>
+                <p class="no-company__foo-text">Или свяжитесь через онлайн чат</p>
+                <form class="no-company__foo-message send-message" action="#">
+                  <textarea class="send-message__field" placeholder="Ваше сообщение" required></textarea>
+                  <button class="send-message__submit">
+                    <div class="i-send-message"></div>
+                  </button>
+                </form>
+              </footer>
+            </div>
+          </div>
+          <div class="popup popup_type_form clearfix" id="praxis-req">
+            <div class="popup__body">
+              <h3 class="text__h3 popup__title">Запрос</h3>
+              <textarea class="praxis-req__field praxis-req__field_comm praxis-req__field praxis-req_popup__field" placeholder="Ваше сообщение"></textarea>
+              <label class="praxis-req__option praxis-req_popup__option">
+                <div class="praxis-req__option-check praxis-req_popup__option-check">
+                  <input class="checkbox-double" type="checkbox">
+                </div>
+                <div class="praxis-req__option-text praxis-req_popup__option-text">Требуется ответ в течении рабочего часа</div>
+              </label>
+              <label class="praxis-req__option praxis-req_popup__option praxis-req__option praxis-req_popup__option_last">
+                <div class="praxis-req__option-check praxis-req_popup__option-check">
+                  <input class="checkbox-double" type="checkbox">
+                </div>
+                <div class="praxis-req__option-text praxis-req_popup__option-text">Отправить всем компаниям раздела</div>
+              </label>
+              <button class="btn-blue" type="submit">Отправить запрос</button>
+              <div class="praxis-req__attached praxis-req_popup__attached">
+                <div class="praxis-req__attached-list praxis-req_popup__attached-list">Прикрепленные файлы: коммерческое предложение.doc, информация по проекту.doc <span class="praxis-req__attached-icon praxis-req_popup__attached-icon"><i class="i-clear-attach"></i></span></div><a class="praxis-req__attached-linkpraxis-req_popup__attached-link" href="#"><span class="praxis-req__attached-link-icon praxis-req_popup__attached-link-icon"><i class="i-attach"></i></span><span class="praxis-req__attached-link-text praxis-req_popup__attached-link-text">Прикрепить файл</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="popup popup_type_finance clearfix" id="pa-finance">
+            <div class="popup__body">
+              <form>
+                <table class="pa-table popup__table_sm_block pa-finance-popup__table">
+                  <tbody class="popup__table_sm_block">
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <th class="popup__table_sm_block pa-table__th pa-profile__table-head pa-profile__email-head" colspan="2">Реквизиты</th>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">ИНН</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__label" colspan="2">Введите ИНН для автоматического заполнения информации</td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Наименование</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">КПП</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">ОКПО</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <th class="popup__table_sm_block pa-table__th pa-profile__table-head pa-profile__email-head" colspan="2">Реквизиты	</th>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Город</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Адрес</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <textarea class="pa-profile__field-email pa-profile__field-email_textarea" type="text"></textarea>
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <th class="popup__table_sm_block pa-table__th pa-profile__table-head pa-profile__email-head" colspan="2">Фактический адрес</th>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block" colspan="2">
+                        <label>
+                          <input class="pa-finance-popup__checkbox checkbox-double" type="checkbox">Соответствует юридическому
+                        </label>
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block"></td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block"></td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <textarea class="pa-profile__field-email pa-profile__field-email_textarea" type="text"></textarea>
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">БИК</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Банк</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Кор. счет</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr popup__table_sm_block">
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block">Расчетный счет</td>
+                      <td class="pa-table__td pa-profile__email-td popup__table_sm_block pa-finance-popup__field">
+                        <input class="pa-profile__field-email" type="text">
+                      </td>
+                    </tr>
+                    <tr class="pa-table__tr">
+                      <td class="pa-table__td" colspan="2">
+                        <button class="btn btn-blue pa-profile__btn pa-finance-popup__btn">Сохранить</button><a class="link" href="#">Отменить</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <div class="menu-levels-mobile">
+        <ul class="menu-levels-mobile__track clearfix">
+          <li class="menu-levels-mobile__level menu-levels-mobile__level-1">
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item mobile-menu__item_arr"><a class="mobile-menu__link menu-levels-mobile__up-level" href="#" data-target="#menu-levels-mobile-branch-1" data-next-level=".menu-levels-mobile__level-2"><span class="mobile-menu__icon"><span class="i-mobile-target"></span></span>г.Москва	</a></li>
+            </ul>
+            <div class="mobile-menu__title">Специализации</div>
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item mobile-menu__item_arr"><a class="mobile-menu__link menu-levels-mobile__up-level" href="#" data-target="#menu-levels-mobile-branch-2" data-next-level=".menu-levels-mobile__level-2">Юридические практики</a></li>
+              <li class="mobile-menu__item mobile-menu__item_arr">
+                <div class="mobile-menu__link menu-levels-mobile__up-level" href="#" data-target="#menu-levels-mobile-branch-3" data-next-level=".menu-levels-mobile__level-2">Популярные услуги</div>
+              </li>
+              <li class="mobile-menu__item mobile-menu__item_arr">
+                <div class="mobile-menu__link menu-levels-mobile__up-level" href="#" data-target="#menu-levels-mobile-branch-4" data-next-level=".menu-levels-mobile__level-2">Отраслевой опыт</div>
+              </li>
+            </ul>
+            <div class="mobile-menu__title">Личный кабинет</div>
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item"><a class="mobile-menu__link fancy" href="#auth"><span class="mobile-menu__icon"><span class="i-mobile-locked"></span></span>Войти</a></li>
+            </ul>
+            <div class="mobile-menu__title">Меню</div>
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Методология отбора</a></li>
+              <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Как это работает</a></li>
+              <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">О портале</a></li>
+            </ul>
+          </li>
+          <li class="menu-levels-mobile__level menu-levels-mobile__level-2">
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item mobile-menu__item_arr-back"><a class="mobile-menu__link menu-levels-mobile__down-level" href="#">Назад</a></li>
+            </ul>
+            <div class="menu-levels-mobile__branch" id="menu-levels-mobile-branch-1">
+              <div class="mobile-menu__title">Город</div>
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">г.Москва</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">г.Санкт-Петербург</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">г.Екатеринбург</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">г.Нижний Новгород</a></li>
+              </ul>
+            </div>
+            <div class="menu-levels-mobile__branch" id="menu-levels-mobile-branch-2">
+              <div class="mobile-menu__title">Юридические практики</div>
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Налоговое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Недвижимость и земельное право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Трудовое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Воздушное право	</a></li>
+              </ul>
+            </div>
+            <div class="menu-levels-mobile__branch" id="menu-levels-mobile-branch-3">
+              <div class="mobile-menu__title">Популярные услуги</div>
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Налоговое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Недвижимость и земельное право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Трудовое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Воздушное право	</a></li>
+              </ul>
+            </div>
+            <div class="menu-levels-mobile__branch" id="menu-levels-mobile-branch-4">
+              <div class="mobile-menu__title">Отраслевой опыт</div>
+              <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Налоговое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Недвижимость и земельное право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Трудовое право</a></li>
+                <li class="mobile-menu__item"><a class="mobile-menu__link" href="#">Воздушное право	</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <script src="js/slideout.min.js"></script>
+    <script src="js/jquery.custom-radio-checkbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

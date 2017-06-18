@@ -1,0 +1,28 @@
+{
+  "name": "012-cliff",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-watch": "^4.3.5",
+    "gulp.spritesmith": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Millok Murlyka",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murlyka-sites/007-ok.git"
+  },
+  "bugs": {
+    "url": "https://github.com/murlyka-sites/007-ok/issues"
+  },
+  "homepage": "https://github.com/murlyka-sites/007-ok#readme",
+  "description": ""
+}

@@ -1,0 +1,82 @@
+.pa-finance {
+
+	// &_md_block {
+	// 	@media (max-width: (@screen-lg-min - 1px)) {
+	// 		display: block;
+	// 	}
+	// }
+
+	&__document {
+		display: block;
+		margin-right: 10px;
+		margin-bottom: 5px;
+
+		@media (min-width: @screen-lg-min) {
+			display: inline-flex;
+		}
+
+		&-icon {
+			min-width: 22px;
+			margin-right: 5px;
+		}
+	}
+
+	&__cell {
+		width: 100%;
+
+		@media (min-width: @screen-md-min) {
+			width: 33.333%;
+		}
+	}
+
+	&__table {
+		margin-top: 0;
+
+		&-head {
+			padding: 0;
+		}
+
+		&-td {
+			padding: 10px 0;
+			min-width: auto;
+		}
+	}
+
+	&__available {
+		&-cost {
+			width: 120px
+		}
+	}
+
+	&__conclusion {
+
+		&-foo {
+			vertical-align: middle;
+		}
+	}
+
+	&__info {
+		&-td {
+			min-width: auto;
+		}
+
+		&-document {
+			width: 180px;
+		}
+	}
+
+	&__td-mobile {
+		@media (max-width: (@screen-md-min - 1px)) {
+			width: 33.333%;
+		}
+	}
+
+	&__info-tr {
+		border-bottom: 1px solid #c8c8c8;
+		
+		&:last-child,
+		&:first-child {
+			border-bottom: none;
+		}
+	}
+}

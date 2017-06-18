@@ -1,0 +1,53 @@
+.private-message: .container: .row: .col-xs-12
+	h2.pa-create__title
+		| Создание сделки
+.pa-create: .container: .row: .col-xs-12
+	.pa-create__container
+		.pa-create__row
+			.pa-create__label
+				| E-mail или телефон контрагента
+			input.pa-create__field
+		.pa-create__row
+			.pa-create__label
+				| Предоставляемая услуга
+			input.pa-create__field
+		.pa-create__row
+			.pa-create__label
+				| Предоставляется клиентом
+			.pa-create__fields
+				textarea.pa-create__field.pa-create__field_textarea
+				.pa-create__desc
+					b Важно: 
+					| Укажите полный перечень требований к клиенту от списка документов до наличия особых специалистов
+
+		.pa-create__row
+			.pa-create__label
+				| Клиент получает на руки
+			textarea.pa-create__field.pa-create__field_textarea
+		.pa-create__row
+			.pa-create__label
+				| Стоимость
+			.pa-create__fields
+				input.pa-create__field.pa-create__field_inline(type="text")
+				| Р
+		.pa-create__row
+			.pa-create__label
+				| Дополнительная информация (оплата накладных расходов, госпошлин, сроки и прочее)
+			.pa-create__fields
+				textarea.pa-create__field.pa-create__field_textarea
+				.text-right
+					label.pa-create__link.pa-create__open-file
+						span.pa-create__link-icon
+							i.i-attach
+						span.pa-create__link-text
+							| Прикрепить файл
+						input(type="file").hidden
+				.pa-create__drop
+					| Переместите фаил в данную область для прикрепления
+				.pa-create__sublabel
+					| Предложение действительно
+				div
+					input.pa-create__field.pa-create__field_inline
+					| дней
+				button.btn.btn-blue.pa-create__btn
+					| Создать сделку

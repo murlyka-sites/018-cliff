@@ -1,0 +1,159 @@
+.pa: .container: .row: .col-xs-12
+	h2.pa__title
+		| Финансы
+.pa__body.pa-profile: .container: .row: .col-xs-12
+	.pa-grid__container
+		.pa-grid__cell-wrap.pa-finance__cell: section.pa-grid__cell.clearfix
+			.pa-finance__available
+				table.pa-table.pa-finance__table
+					tr.pa-table__tr
+						th.pa-table__th.pa-profile__table-head.pa-finance__table-head
+							| Доступно
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td Баланс
+						td.pa-table__td.pa-finance__table-td.pa-finance__available-cost 45 000 P
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td Ожидается
+						td.pa-table__td.pa-finance__table-td.pa-finance__available-cost 150 000 P
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td Всего
+						td.pa-table__td.pa-finance__table-td.pa-finance__available-cost 195 000 P
+		.pa-grid__cell-wrap.pa-finance__cell: section.pa-grid__cell.clearfix
+			.pa-finance__replenish
+				table.pa-table.pa-finance__table
+					tr.pa-table__tr
+						th.pa-table__th.pa-profile__table-head.pa-finance__table-head Пополнить
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td: input.pa-profile__field-email(type="text", value="45000")
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td: a.btn.btn-blue.pa-profile__btn(href="#") Создать счет
+		.pa-grid__cell-wrap.pa-finance__cell: section.pa-grid__cell.clearfix
+			.pa-finance__conclusion
+				table.pa-table.pa-finance__table: tbody
+					tr.pa-table__tr
+						th.pa-table__th.pa-profile__table-head.pa-finance__table-head(colspan="2") Вывод средств
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td
+							| Получатель: ООО ГК Аваль
+							br
+							| БИК  044525974
+							br
+							| РС 30232810100000000004
+						td.pa-table__td.pa-finance__table-td.text-right: input.pa-profile__field-email.pa-profile__field-email_small(type="text", value="45000")
+				table.pa-table.pa-finance__table
+					tr.pa-table__tr
+						td.pa-table__td.pa-finance__table-td.pa-finance__conclusion-foo: a.link Изменить
+						td.pa-table__td.pa-finance__table-td.text-right.pa-finance__conclusion-foo: a.btn.btn-blue.pa-profile__btn(href="#") Создать счет
+		.pa-grid__cell-wrap.pa-grid__cell-wrap_full: section.pa-grid__cell.clearfix: .pa-profile__info
+			.hidden-xs.hidden-sm
+				table.pa-table
+					tr.pa-table__tr.pa-finance__info-tr
+						th.pa-table__th.pa-profile__table-head(colspan="6") Характер операции
+					tr.pa-table__tr.pa-finance__info-tr
+						td.pa-finance__info-td.pa-table__td Дата
+						td.pa-finance__info-td.pa-table__td Характер операции
+						td.pa-finance__info-td.pa-table__td Статус
+						td.pa-finance__info-td.pa-table__td Комментарий
+						td.pa-finance__info-td.pa-table__td Сумма
+						td.pa-finance__info-td.pa-finance__info-document.pa-table__td Документы
+					tr.pa-table__tr.pa-finance__info-tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td Сделка: Регистрация ООО в Нижнем Новгороде
+						td.pa-finance__info-td.pa-table__td 12'000.00
+						td.pa-finance__info-td.pa-finance__info-document.pa-table__td
+					tr.pa-table__tr.pa-finance__info-tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td Сделка: Регистрация ООО в Нижнем Новгороде
+						td.pa-finance__info-td.pa-table__td 12'000.00
+						td.pa-finance__info-td.pa-finance__info-document.pa-table__td(width="160")
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-scope
+								span.pa-finance__document-text Счёт
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-invoice
+								span.pa-finance__document-text Счет фактура
+					tr.pa-table__tr.pa-finance__info-tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td Сделка: Регистрация ООО в Нижнем Новгороде
+						td.pa-finance__info-td.pa-table__td 12'000.00
+						td.pa-finance__info-td.pa-finance__info-document.pa-table__td(width="160")
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-scope
+								span.pa-finance__document-text Счёт
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-act-executed-works
+								span.pa-finance__document-text Акт выполненных работ
+			.visible-xs.visible-sm
+				table.pa-table
+					tr.pa-table__tr
+						th.pa-table__th.pa-profile__table-head(colspan="6") Характер операции
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td 12'000.00
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-scope
+								span.pa-finance__document-text Счёт
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-invoice
+								span.pa-finance__document-text Счет фактура
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-act-executed-works
+								span.pa-finance__document-text Акт выполненных работ
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td 12'000.00
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-scope
+								span.pa-finance__document-text Счёт
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-invoice
+								span.pa-finance__document-text Счет фактура
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-act-executed-works
+								span.pa-finance__document-text Акт выполненных работ
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td 03.12.2016
+						td.pa-finance__info-td.pa-table__td Резервирование
+						td.pa-finance__info-td.pa-table__td Резерв
+						td.pa-finance__info-td.pa-table__td 12'000.00
+				table.pa-table
+					tr.pa-table__tr
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-scope
+								span.pa-finance__document-text Счёт
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-invoice
+								span.pa-finance__document-text Счет фактура
+						td.pa-finance__info-td.pa-table__td.pa-finance__td-mobile
+							a.pa-finance__document.link(href="#")
+								span.pa-finance__document-icon: i.i-finance-act-executed-works
+								span.pa-finance__document-text Акт выполненных работ
+			.pa-cell__foo
+				a.link(href="#") Следующие 5
+
+

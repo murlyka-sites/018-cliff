@@ -1,0 +1,132 @@
+.pa {
+	&__title {
+		margin: 5px 0 20px;
+		color: #333;
+		font-family: "Museo Sans Cyrl";
+		font-size: 25px;
+		font-weight: 500;
+		line-height: 30px;
+		text-align: center;
+		
+		@media (min-width: @screen-md-min) {
+			margin: -35px 0 30px;
+			font-size: 35px;
+			text-align: left;
+		}
+	}
+
+	&-transaction {
+		padding-bottom: 20px;
+		background: #f6f6f6;
+		
+		@media (min-width: @screen-sm-min) {
+			padding-bottom: 80px;
+		}
+		
+		&__container {
+			padding: 20px 0 0;
+			margin: 0 -15px;
+			
+			@media (min-width: @screen-sm-min) {
+				padding: 60px 0 0;
+			}
+			
+			@media (min-width: @screen-md) {
+				display: flex;
+				flex-wrap: wrap;
+				align-content: stretch;
+			}
+		}		
+	
+		&__personal {
+			@media (min-width: @screen-sm-min) {
+				display: flex;
+			}
+			
+			&-left,
+			&-right {
+				@media (min-width: @screen-sm-min) {
+					width: 50%;
+				}
+			}
+
+			&-info {
+				td {
+					padding-bottom: 15px;
+				}
+			}
+		}
+
+		&__social {
+			@media (min-width: @screen-sm-min) {
+				padding-left: 100px;
+			}
+		}
+
+		&__link {
+			color: #2e7b86;
+			text-decoration: underline;
+			margin-bottom: 10px;
+			
+			&:hover,
+			&:focus,
+			&:active {
+				color: #2e7b86;
+				text-decoration: none;
+			}
+		}
+
+		&__add-social-title {
+			margin: 5px 0 15px;
+		}
+
+		&__subtitle {
+			padding-top: 10px;
+			padding-bottom: 15px;
+			@media (min-width: @screen-sm-min) {
+				padding-left: 100px;
+			}
+		}
+
+		&__next {
+			position: absolute;
+			bottom: 3px;
+			right: 30px;
+			color: #2e7b86;
+			font-family: "Museo Sans Cyrl";
+			font-size: 14px;
+			font-weight: 100;
+			line-height: 21px;
+			text-decoration: underline;
+			
+		}
+
+		&__title {
+			color: #333;
+			font-family: "Museo Sans Cyrl";
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 30px;
+		}
+
+		&__date {
+			color: #707070;
+			font-family: Roboto;
+			font-size: 12px;
+			font-weight: 400;
+			text-align: center;
+			padding-bottom: 15px;
+		}
+
+		&__cat {
+			padding: 15px 0 10px;
+			color: #333;
+			font-family: Roboto;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+		}
+	}
+
+
+}

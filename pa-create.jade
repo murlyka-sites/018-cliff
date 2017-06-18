@@ -1,0 +1,40 @@
+doctype html
+html
+	head
+		title Создание сделки
+		meta(charset="UTF-8")
+		meta(name="SKYPE_TOOLBAR", content="SKYPE_TOOLBAR_PARSER_COMPATIBLE")
+		meta(content="telephone=no", name="format-detection")
+		meta(http-equiv="Cache-Control" content="no-cache")
+		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css")
+		link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic")
+		link(rel="stylesheet", href="css/bootstrap.css")
+		link(rel="stylesheet", href="css/style.css")
+
+		//- link(rel="stylesheet", href="node_modules/pixel-glass/styles.css")
+		//- script(src="../node_modules/pixel-glass/script.js")
+		//- style
+		//- 	| body { background: url(../pixelglass/pa-create.jpg) center 6px no-repeat}
+
+	body
+		.overlay
+		.swipes#swipes
+			.fixed
+				include jade/praxis.nav.jade
+				include jade/header.jade
+				include blocks/pa-nav/pa-nav
+				include blocks/pa-create/pa-create
+				include jade/si.jade
+				include jade/banner-h120.jade
+				include jade/foo.jade
+				include jade/popup.jade
+		
+		include jade/praxis.mobile-menu.jade
+		
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js")
+		script(src="js/slideout.min.js")
+		script(src="js/jquery.custom-radio-checkbox.min.js")
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js")
+		script(src="js/main.js")

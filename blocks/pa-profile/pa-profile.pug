@@ -1,0 +1,146 @@
+.pa: .container: .row: .col-xs-12
+	h2.pa__title
+		| Создание сделки
+.pa__body.pa-profile: .container: .row: .col-xs-12
+	.pa-grid__container
+		.pa-grid__cell-wrap.pa-profile__cell.pa-profile__cell_requisites: section.pa-grid__cell.pa-profile__cell-inner.clearfix
+			.pa-profile__requisites
+				.pa-profile__requisites-body
+					.pa-profile__requisites-left: table.pa-table.pa-profile__table
+							tr.pa-table__tr
+								th.pa-table__th.pa-profile__table-head
+									| Реквизиты
+							tr.pa-table__tr
+								td.pa-table__td
+									| Наименование ГК Аваль
+									br
+									| ИНН 6670143220
+									br
+									| КПП 667001001
+									br
+									| ОГРН 1069670148790
+									br
+									| ОКПО 97924001
+							
+					.pa-profile__requisites-right: table.pa-table.pa-profile__table
+							tr.pa-table__tr
+								th.pa-table__th.pa-profile__table-head
+									| Адреса
+							tr.pa-table__tr
+								td.pa-table__td Юридический адрес 620072, область Свердловская, Екатеринбург, бульвар Сиреневый, д. 16, оф. 85
+							tr.pa-table__tr
+								td.pa-table__td Юридический адрес 620072, область Свердловская, Екатеринбург, бульвар Сиреневый, д. 16, оф. 85
+				.pa-profile__cell-foo.pa-profile__requisites-foo
+					a.btn.btn-blue.pa-profile__btn.fancy(href="#pa-finance")
+						| Изменить
+		.pa-grid__cell-wrap.pa-profile__cell.pa-profile__cell_social: section.pa-grid__cell.pa-profile__cell-inner.clearfix
+			.pa-profile__social
+				table.pa-table
+					tr.pa-table__tr: th.pa-table__th.pa-profile__table-head.pa-profile__social-head(colspan="2") Связанные соцсети
+					tr.pa-table__tr
+						td.pa-table__td.pa-table__td_ico1n_small.pa-profile__social-icon
+							a.i-social-small-fb(href="#")
+						td.pa-table__td.pa-profile__social-title
+							div
+								| Facebook
+							a.link(href="#")
+								| удалить
+					tr.pa-table__tr
+						td(colspan="2").pa-table__td
+							.pa-transaction__add-social-title
+								| Привязать соцсеть
+							.social
+								a.social__item.i-social-small-msg(href="#")
+								a.social__item.i-social-small-fb(href="#")
+								a.social__item.i-social-small-vk(href="#")
+		.pa-grid__cell-wrap.pa-profile__cell.pa-profile__cell_personal: section.pa-grid__cell.pa-profile__cell-inner.clearfix
+			.pa-profile__personal
+				.pa-profile__personal-body
+					table.pa-table
+						tr.pa-table__tr: th.pa-table__th.pa-profile__table-head.pa-profile__personal-head(colspan="2") Личные данные
+						tr.pa-table__tr
+							td.pa-table__td E-mail
+							td.pa-table__td yurist@gmail.com
+						tr.pa-table__tr
+							td.pa-table__td yurist@gm
+							td.pa-table__td +7909281020
+						tr.pa-table__tr
+							td.pa-table__td Пароль
+							td.pa-table__td ***********
+				.pa-profile__cell-foo.pa-profile__personal-foo
+					a.btn.btn-blue.pa-profile__btn(href="#")
+						| Изменить
+		.pa-grid__cell-wrap.pa-profile__cell.pa-profile__cell_info: section.pa-grid__cell.pa-profile__cell-inner.clearfix
+			.pa-profile__info
+				.pa-profile__info-body
+					table.pa-table
+						tr.pa-table__tr: th.pa-table__th.pa-profile__table-head Информация о компании
+						tr.pa-table__tr
+							td.pa-table__td: textarea.pa__desc Группа компаний «АВАЛЬ» - холдинг, состоящий из специализированных компаний, действующих в сфере консалтинговых услуг, обеспечивающих построение и сопровождение бизнеса. В Группу компаний входят: Юридическое агентство, Лицензионное агентство, Бюро судебной защиты, Бухгалтерский центр, Агентство охраны труда и Центр сертификации ISO 9000.
+				.pa-profile__cell-foo
+					a.btn.btn-blue.pa-profile__btn(href="#")
+						| Сохранить
+		.pa-grid__cell-wrap.pa-profile__cell.pa-profile__cell_email: section.pa-grid__cell.pa-profile__cell-inner.clearfix
+			.pa-profile__email
+				.pa-profile__email-body
+					table.pa-table.pa-profile__email_sm_block: tbody.pa-profile__email_sm_block
+						tr.pa-table__tr.pa-profile__email_sm_block: th.pa-profile__email_sm_block.pa-table__th.pa-profile__table-head.pa-profile__email-head E-mail профильных юристов
+						tr.pa-table__tr.pa-profile__email_sm_block
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block Антимонопольная практика
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block: input.pa-profile__field-email(type="text", value="yurist1@company.ru", readonly)
+						tr.pa-table__tr.pa-profile__email_sm_block
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block Представительство в суде
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block: input.pa-profile__field-email(type="text", value="yurist1@company.ru", readonly)
+						tr.pa-table__tr.pa-profile__email_sm_block
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block Корпоративное право
+							td.pa-table__td.pa-profile__email-td.pa-profile__email_sm_block: input.pa-profile__field-email(type="text", value="yurist1@company.ru", readonly)
+				.pa-profile__email-foo.pa-profile__cell-foo
+					a.btn.btn-blue.pa-profile__btn(href="#")
+						| Изменить
+			//- .pa-cell#pa-cell-1.in
+			//- 	.pa-line
+			//- 		h1.pa-cell__title
+			//- 			| Сообщения
+			//- 		a.btn.btn-blue.pa-line__btn
+			//- 			| Создать
+			//- 	table.pa-table
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: strong: a.pa-table__strong(href="#") Получение медицинской лицензии
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 14:43
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: a(href="#") Нужна медицинская лицензия
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 2 дня назад
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: a(href="#") Нужна медицинская лицензия
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 14:43
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: a(href="#") Нужно КП на мед лицензию
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 2 дня назад
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: a(href="#") Сколько будет стоить получить медицинскую лицензию в  городе Нижний Новгород под ключ
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 3 дня назад
+			//- 		tr.pa-table__row
+			//- 			td.pa-table__td: a(href="#") Нужна медицинская лицензия
+			//- 			td.pa-table__td
+			//- 				span.pa-table__icon
+			//- 					i.i-time 
+			//- 				| 3 дня назад
+			//- 	.pa-cell__foo
+			//- 		a.link(href="#") Следующие 5
+			//- .pa-cell__btn-collapse(data-toggle="collapse", data-target="#pa-cell-1") Свернуть
+	

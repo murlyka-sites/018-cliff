@@ -1,0 +1,138 @@
+mixin firms()
+	.firm__items
+		a.firm__item.firm__item_empty(href="#")
+			| Арбитраж. Представительво в суде
+		a.firm__item.firm__item_empty(href="#")
+			| Антимонопольное право (ФАС)
+		a.firm__item.firm__item_empty(href="#")
+			| Банковское право и финансы
+		a.firm__item.firm__item_empty(href="#")
+			| Банкротство
+		a.firm__item.firm__item_empty(href="#")
+			| Интеллектуальная собственность
+		a.firm__item(href="#")
+			| Коммерческое право
+		a.firm__item(href="#")
+			| Корпоративное право
+		a.firm__item(href="#")
+			| Налоговое право
+		a.firm__item(href="#")
+			| Недвижимость и земельное право
+		a.firm__item(href="#")
+			| Трудовое право
+		a.firm__item(href="#")
+			| Воздушное право
+		a.firm__item(href="#")
+			| Морское право
+		a.firm__item(href="#")
+			| Государственно частное партнерство
+		a.firm__item(href="#")
+			| Противодействие коррупции (Compliance)
+		a.firm__item(href="#")
+			| Право в сфере информационных технологий (TMT)
+		a.firm__item(href="#")
+			| Таможенное право (ВЭД?)
+		a.firm__item(href="#")
+			| Фармацевтическое право
+		a.firm__item(href="#")
+			| Ценные бумаги и фондовой рынок
+		a.firm__item(href="#")
+			| Экологическое право
+		a.firm__item(href="#")
+			| Международный арбитраж
+
+mixin firms-mobile()
+	.firm__items.firm__items_mobile
+		a.firm__item.firm__item_empty(href="#")
+			| Арбитраж. Представительво в суде
+		a.firm__item.firm__item_empty(href="#")
+			| Антимонопольное право (ФАС)
+		a.firm__item.firm__item_empty(href="#")
+			| Банковское право и финансы
+		a.firm__item.firm__item_empty(href="#")
+			| Банкротство
+		a.firm__item.firm__item_empty(href="#")
+			| Интеллектуальная собственность
+		a.firm__item(href="#")
+			| Коммерческое право
+		a.firm__item(href="#")
+			| Корпоративное право
+		a.firm__item(href="#")
+			| Налоговое право
+		a.firm__item(href="#")
+			| Недвижимость и земельное право
+		a.firm__item(href="#")
+			| Трудовое право
+		a.firm__item(href="#")
+			| Воздушное право
+		a.firm__item(href="#")
+			| Морское право
+		a.firm__item(href="#")
+			| Государственно частное партнерство
+		a.firm__item(href="#")
+			| Противодействие коррупции (Compliance)
+		a.firm__item(href="#")
+			| Право в сфере информационных технологий (TMT)
+		a.firm__item(href="#")
+			| Таможенное право (ВЭД?)
+		a.firm__item(href="#")
+			| Фармацевтическое право
+		a.firm__item(href="#")
+			| Ценные бумаги и фондовой рынок
+		a.firm__item(href="#")
+			| Экологическое право
+		a.firm__item(href="#")
+			| Международный арбитраж
+
+.firm
+	.container
+		.row
+			.col-xs-12
+				.firm__place
+					.firm__header.firm__header_home
+						.firm__header-title
+							| Выберите нужную специализацию:
+						.firm__header-tabs.toggle-buttons#firms-accordion.visible-xs.visible-sm
+							button.toggle-buttons__button.toggle-buttons__button_active(data-toggle="collapse" data-parent="#firms-accordion", data-target="#firm-collapse1")
+								.toggle-buttons__text
+									| Юридические практики
+							div.collapse#firm-collapse1
+								+firms-mobile()
+							button.toggle-buttons__button(data-toggle="collapse" data-parent="#firms-accordion", data-target="#firm-collapse2")
+								.toggle-buttons__text
+									| Популярные услуги
+							div.collapse#firm-collapse2
+								+firms-mobile()
+							button.toggle-buttons__button.toggle-buttons__button_last(data-toggle="collapse" data-parent="#firms-accordion", data-target="#firm-collapse3")
+								.toggle-buttons__text
+									| Отраслевой опыт
+							div.collapse#firm-collapse3
+								+firms-mobile()
+						.visible-md.visible-lg
+							.firm__header-tabs.toggle-buttons
+								button.toggle-buttons__button.toggle-buttons__button_active(data-toggle="tab", data-target="#firm-tab1")
+									.toggle-buttons__text
+										| Юридические практики
+								button.toggle-buttons__button(data-toggle="tab", data-target="#firm-tab2")
+									.toggle-buttons__text
+										| Популярные услуги
+								button.toggle-buttons__button.toggle-buttons__button_last(data-toggle="tab", data-target="#firm-tab3")
+									.toggle-buttons__text
+										| Отраслевой опыт
+						.firm__header-select.select__wrap(data-target=".collapse-in-maps", data-toggle="collapse")
+								button.select
+									| г.Москва
+						.visible-xs.visible-sm
+							include in-maps.jade
+						a.firm__header-maps(href="#")
+							| На карте
+					.hidden-xs.hidden-sm
+						include in-maps.jade
+					.tab-content
+						.tab-pane.fade.in.active#firm-tab1
+							+firms()
+						.tab-pane.fade#firm-tab2
+							+firms()
+						.tab-pane.fade#firm-tab3
+							+firms()
+					

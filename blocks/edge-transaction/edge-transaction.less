@@ -1,0 +1,65 @@
+.edge-transaction {
+	padding-bottom: 15px;
+	text-align: center;
+	
+	@media (min-width: @screen-sm-min) {
+		padding-bottom: 57px;
+	}
+	
+	&__container {
+		display: flex;
+		justify-content: space-around;
+		padding: 37px 0 20px;
+		
+		@media (min-width: @screen-sm-min) {
+			padding: 57px 0 20px;			
+		}
+	}
+
+	&__title {
+		@media (max-width: (@screen-sm-min - 1px)) {
+			margin: 10px -5px 0;
+			font-size: 30px;
+		}
+	}
+	
+	&__item {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 5px 10px;
+		// max-width: 33%;
+		
+		@media (min-width: 500px) {
+			margin-bottom: 30px;
+		}
+		
+		@media (min-width: @screen-lg-min) {
+			width: 30%;			
+			margin: 0 4%;
+		}
+		
+		&-icon {
+			height: 55px;
+			margin-bottom: 15px;
+			
+			@media (min-width: 500px) {
+				height: 80px;
+			}
+		}
+		
+		&-title {
+			color: #333;
+			font-family: "Museo Sans Cyrl";
+			font-size: 12px;
+			font-weight: 700;
+			line-height: 18px;
+			text-align: left;
+			
+			@media (min-width: 500px) {
+				font-size: 18px;
+				line-height: 21px;
+				text-align: center;
+			}
+		}
+	}
+}

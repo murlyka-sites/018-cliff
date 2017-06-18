@@ -1,0 +1,198 @@
+.pa-profile {
+	&__btn {
+		width: auto;
+		padding-left: 25px;
+		padding-right: 25px;
+		display: inline-block;
+	}
+
+	&__cell {
+		padding-bottom: 0;
+		margin-bottom: 0;
+		// margin-left: -5px;
+		// margin-right: -5px;
+
+		@media (min-width: @screen-md-min) {
+			margin-bottom: 7px;
+		}
+
+		&_requisites {
+			width: 100%;
+			padding-right: 15px;
+
+			@media (min-width: @screen-md-min) {
+				width: 41%;
+				padding-right: 0;
+			}
+		}
+
+		&_social {
+			@media (min-width: @screen-md-min) {
+				width: 24%;
+				padding-right: 0;
+			}
+		}
+
+		&_personal {
+			@media (min-width: @screen-md-min) {
+				width: 35%;
+			}
+		}
+
+		&_info {
+			@media (min-width: @screen-md-min) {
+				padding-right: 0;
+			}
+		}
+
+		&-inner {
+			padding: 0;
+		}
+
+		&-foo {
+			padding: 5px 10px 5px;
+			text-align: right;
+
+			@media (min-width: @screen-md-min) {
+				text-align: left;
+			}
+		}
+	}
+
+	&__table {
+		margin: 10px 0 0;
+	}
+
+	&__table-head {
+		font-size: 18px;
+		font-weight: 500;
+		padding-bottom: 0;
+	}
+
+	&__requisites {
+		line-height: 1.35;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 15px;
+
+		&-body {
+			@media (min-width: @screen-sm-min) {
+				display: flex;
+			}
+		}
+		
+		&-left {				
+			@media (min-width: @screen-sm-min) {
+				width: 200px;
+			}
+		}
+
+		&-right {				
+			@media (min-width: @screen-sm-min) {
+				width: 100%;
+				width: ~"calc(100% - 200px)";
+			}
+		}
+
+		&-foo {
+			padding: 0 10px 5px;
+		}
+	}
+
+	&__social {
+		padding: 0 15px 15px;
+
+		@media (min-width: @screen-md-min) {
+			padding: 0 20px 15px;
+		}
+
+		&-head {
+			padding-bottom: 15px;
+		}
+
+		&-icon {
+			width: 50px;
+			min-width: auto;
+			padding-right: 10px;
+		}
+
+		&-title {
+			padding-left: 0;
+		}
+	}
+
+	&__personal {
+		padding: 0 15px 15px;
+
+		@media (min-width: @screen-md-min) {
+			padding: 0 20px 15px;
+		}
+
+		&-head {
+			padding: 15px 10px 10px;
+		}
+
+		&-foo {
+			padding: 20px 10px 5px;
+		}
+	}
+
+	&__info {
+		padding: 0 15px 15px;
+
+		@media (min-width: @screen-md-min) {
+			padding: 0 0 15px;
+		}
+	}
+
+	&__email {
+		padding: 0 15px 15px;
+
+		@media (max-width: (@screen-md-min - 1px)) {
+			&_sm_block{
+				display: block;
+			}
+		}
+
+		&-head {
+			padding-bottom: 15px;
+		}
+		
+		&-td {
+			vertical-align: middle;
+			padding: 5px 0;
+
+			@media (min-width: @screen-sm-min) {
+				padding: 5px 10px;
+			}
+		}
+	}
+
+	&__field-email {
+		display: block;
+		width: 100%;
+		height: 37px;
+		padding: 5px 15px;
+		border-radius: 5px;
+		box-shadow: 0 2px 1px rgba(0, 0, 0, 0.34);
+		border: 1px solid #d0d0d0;
+
+		@media (min-width: @screen-md-min) {
+			width: 240px;
+		}
+
+		&_small {
+			display: inline-block;
+			width: 80px;
+
+			@media (min-width: @screen-lg-min) {
+				width: 120px;
+			}
+		}
+
+		&_textarea {
+			height: 65px;
+			resize: none;
+		}
+	}
+}
