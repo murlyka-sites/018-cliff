@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	svg4everybody();
+
 	(function() {
 		var $track = $(".menu-levels-mobile__track"),
 				width = $track.children().length * 256;

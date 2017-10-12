@@ -5,3 +5,4 @@ prepros.cfg
 prepros-6.config
 pixelglass/
 bower_components
+package-lock.json
