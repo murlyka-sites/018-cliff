@@ -3192,6 +3192,21 @@ body {
 	& &__field {
 		margin-top: 0;
 	}
+}
 
-	
+.button {
+	&_sort {
+		&_asc::after,
+		&_desc::after {
+			font-size: 70%;
+		}
+
+		&_asc::after {
+			content: "▼";
+		}
+
+		&_desc::after {
+			content: "▲";
+		}
+	}
 }
